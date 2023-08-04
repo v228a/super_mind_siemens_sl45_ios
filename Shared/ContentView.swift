@@ -43,7 +43,7 @@ struct ContentView: View {
                         HStack{
                         Text("Copyright © «2023»")
                             Button(action: {
-                               if let url = URL(string: "https://github.com/v228a/") {
+                               if let url = URL(string: "https://github.com/v228a/super_mind_siemens_sl45_ios") {
                                   UIApplication.shared.open(url)
                                }
                             }) {
